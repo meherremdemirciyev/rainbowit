@@ -1,0 +1,228 @@
+@media (max-width: 576px) {
+  header .header-all .logo img {
+    width: 50%;
+  }
+  header .header-all nav {
+    display: none;
+  }
+  header .header-all .icons {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  header .header-all .icons .menu {
+    display: block;
+  }
+  header .header-all .icons a {
+    display: none;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  header .header-all .logo img {
+    width: 50%;
+  }
+  header .header-all nav {
+    display: none;
+  }
+  header .header-all .icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .header-all .icons .menu {
+    display: block;
+  }
+  header .header-all .icons a {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  header .header-all .logo img {
+    width: 50%;
+  }
+  header .header-all nav {
+    display: none;
+  }
+  header .header-all .icons {
+    display: flex;
+    align-items: center;
+  }
+  header .header-all .icons i {
+    order: -1;
+  }
+  header .header-all .icons a {
+    order: -1;
+    margin-right: 20px;
+  }
+  header .header-all .icons .menu {
+    display: block;
+  }
+}
+@media (max-width: 576px) {
+  #Agencies .container .digit #Image {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  #Agencies .container .digit #Image {
+    line-height: 70px;
+    font-size: 50px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  #Agencies .container .digit #Image {
+    line-height: 82px;
+    font-size: 70px;
+  }
+}
+@media (max-width: 576px) {
+  #About .bottom .b-content {
+    width: 48%;
+  }
+  #About .bottom .b-content hr {
+    display: none;
+  }
+  #About .bottom .b-content span {
+    font-size: 14px;
+  }
+  #About .bottom .b-content h3 {
+    margin-bottom: 15px;
+    font-size: 30px !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .bottom .b-content span {
+    font-size: 14px;
+  }
+  .bottom .b-content h3 {
+    margin-bottom: 15px;
+    font-size: 30px !important;
+  }
+}
+.header-all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #000;
+}
+.header-all .logo img {
+  width: 50%;
+  cursor: pointer;
+}
+.header-all nav a {
+  color: #fff;
+  font-size: 16px;
+  margin-left: 50px;
+  transition: 0.5s;
+}
+.header-all nav a:hover {
+  color: red;
+}
+.header-all nav .home {
+  color: red;
+}
+.header-all .icons i {
+  margin-right: 100px;
+  color: #fff;
+  padding: 10px;
+  border-radius: 100%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.header-all .icons i:hover {
+  background-color: #3B3C36;
+}
+.header-all .icons a {
+  border: 2px solid #b1b4c1;
+  color: #c6c9d8;
+  padding: 10px 30px;
+  border-radius: 7px;
+  background-color: #000;
+  transition: 0.5s;
+}
+.header-all .icons a:hover {
+  background-color: red;
+}
+.header-all .icons .menu {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+#Agencies {
+  background-color: #000;
+}
+#Agencies .container .digit {
+  padding: 30px 0;
+}
+#Agencies .container .digit h1 {
+  font-size: 100px;
+  line-height: 112px;
+  color: red;
+  font-weight: 900;
+}
+#Agencies .container .agency-all .box {
+  margin-bottom: 40px;
+}
+#Agencies .container .agency-all .box .icon {
+  margin-bottom: 30px;
+}
+#Agencies .container .agency-all .box .content h3 {
+  color: #c6c9d8;
+  font-size: 18px;
+}
+#Agencies .container .agency-all .box .content p {
+  color: #c6c9d8;
+  font-size: 18px;
+}
+
+#About {
+  background-color: #101010;
+}
+#About .about-all span {
+  color: red;
+}
+#About .about-all hr {
+  color: red;
+}
+#About .about-all .top {
+  margin-top: 100px;
+}
+#About .about-all .top h3 {
+  color: #fff;
+  font-size: 40px;
+  margin: 20px 0;
+}
+#About .about-all .top p {
+  color: #c6c9d8;
+  font-size: 18px;
+}
+#About .about-all .bottom {
+  display: flex;
+  justify-content: space-between;
+}
+#About .about-all .bottom .b-content h3 {
+  color: red;
+  font-size: 60px;
+}
+#About .about-all .bottom .b-content span {
+  margin: 10px 0;
+}
+#About .about-all .bottom .b-content hr {
+  width: 20%;
+}
+#About .about-all .picture img {
+  max-width: 380px;
+  border-radius: 10px;
+  height: 750px;
+}/*# sourceMappingURL=style.css.map */

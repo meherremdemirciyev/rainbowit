@@ -1,0 +1,86 @@
+@import '_media.scss';
+@import '_static.scss';
+@import '_variables.scss';
+@import '_reset.scss';
+
+#Agencies{
+    background-color: #000;
+    .container{
+      .digit{
+        padding: 30px 0;
+        h1{
+            font-size: 100px;
+            line-height: 112px;
+            color: red;
+            font-weight: 900;
+        }
+     }
+        .agency-all{
+            .box{
+                margin-bottom: 40px;
+                .icon{
+                    margin-bottom: 30px;
+                }
+                .content{
+                     h3{
+                        color: $agencymaincolor;
+                        font-size: $agencymainsize;
+                    }
+                     p{
+                        color: $agencymaincolor;
+                        font-size: $agencymainsize;
+                    }
+                }
+            }
+        }
+      
+    }
+}
+
+#About{
+    background-color: #101010;
+    .about-all{
+        span{
+            color: red;
+        }
+        hr{
+            color: red;
+        }
+        .top{
+            margin-top: 100px;
+            h3{
+                color: #fff;
+                font-size: 40px;
+                margin: 20px 0;
+            }
+            p{
+                color: $agencymaincolor;
+                font-size: $agencymainsize;
+            }
+        }
+        .bottom{
+            display: flex;
+            justify-content: space-between;
+            .b-content{
+                h3{
+                    color: red;
+                    font-size: 60px;
+                }
+                span{
+                    margin: 10px 0;
+                }
+                hr{
+                    width: 20%;
+                }
+            }
+        }
+        .picture{
+            img{
+                max-width: 380px;
+                border-radius: 10px;
+                height: 750px;
+            }
+        }
+
+    }
+}
